@@ -1,0 +1,35 @@
+.gallery {
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(50, 2%);
+    grid-template-rows: repeat(50, 2%);
+    width: 250vw;
+    height: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.behind-text {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.4rem;
+    line-height: 2rem;
+    color: #a2a2a2;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}

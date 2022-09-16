@@ -1,0 +1,9 @@
+.postCategory {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif; 
+    color: #a0cbd8;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+}

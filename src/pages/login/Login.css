@@ -1,0 +1,31 @@
+.login {
+    height: calc(100vh - 5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginTitle {
+    font-size: 5rem;
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.loginForm {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label {
+    margin: 1rem 0;
+}
+
+.loginInput {
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid #a2a2a2;
+    margin-bottom: 2rem;
+}

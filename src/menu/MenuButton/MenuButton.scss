@@ -1,0 +1,21 @@
+.menu-button-wrapper {
+position: relative;
+z-index: 15;
+padding-left: 1rem;
+transition: transform 1.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+
+.menu-button {
+    cursor: pointer;
+    width: 4.8rem;
+    height: 4.8rem;
+    border: none;
+    background: 0 0;
+    transition: transform 1.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  span {
+    font-size: 2rem;
+    z-index: 20;  
+  }
+}
+}

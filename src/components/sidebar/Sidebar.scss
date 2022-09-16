@@ -1,0 +1,24 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    height: 100%;
+    padding-left: 3rem;
+    &-list {
+         list-style: none;
+         line-height: 3rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         a {
+            text-decoration: none;
+            font-size: 1.4rem;
+            line-height:  2rem;
+            color: #a2a2a2;
+            letter-spacing: 0.2rem;
+         }
+        &__item {
+
+        }
+    }
+}

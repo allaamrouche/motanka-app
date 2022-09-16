@@ -1,0 +1,79 @@
+.settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.settingWrapper {
+    width: 90vw;
+    margin: 3rem auto;
+}
+
+.settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 2rem;
+    margin-bottom: 3rem;
+}
+
+.settingsUpdateTitle{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+}
+
+.settingsDeleteTitle {
+    font-size: 1.8rem;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+    color: #a61c35;
+    text-transform: uppercase;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.settingsProfile {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+
+.settingsProfilePic {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.settingsIcon {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.settingsForm > label {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.settingsForm > input {
+  margin: 1rem 0;
+  height: 3rem;
+  border: none;
+  border-bottom: 1px solid #a2a2a2;
+  width: 70vw;
+}
+
+
+
+

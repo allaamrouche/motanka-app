@@ -1,0 +1,85 @@
+.write {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.writeImg {
+    width: 90vw;
+    height: 40rem;
+    margin-left: 0 auto;
+    object-fit: cover;
+}
+
+label {
+    font-size: 1.6rem;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 0.1rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    color: #6a6a6a;
+}
+
+.writeForm {
+    width: 90vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.writeFormGroup {
+  display: flex;
+    padding-right: 2rem;
+    font-size: 2rem;
+    font-family: 'EB Garamond', serif;
+}
+.writeIcon {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #a2a2a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.writeInput {
+    font-family: 'EB Garamond', serif;
+    border: none;
+    width: 70vw;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    color: #6a6a6a;
+}
+
+
+.writeInput:focus {
+    outline: none;
+}
+
+.writeText {
+    font-size: 2rem;
+}
+
+.writeSubmit {
+    width: 10rem;
+    color: white;
+    background-color: #aed7ed;
+    height: 3rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+    border: none;
+    text-transform: uppercase;
+}

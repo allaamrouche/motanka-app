@@ -1,0 +1,66 @@
+.singlePostWrapper {
+    padding: 2rem;
+    width: 90vw;
+}
+
+.singlePostImg {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.singlePostHeading {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singlePostTitle {
+    flex: 10;
+    font-family: 'EB Garamond', serif;
+    font-size: 2.8rem;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.singlePostEdit {
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+.singlePostIcon {
+    font-size: 2rem;
+    padding-left: 3rem;
+    align-self: center;
+    justify-self: end;
+    cursor: pointer;
+}
+
+.singlePostIcon:last-child {
+    color: #a61c35;;
+}
+
+.singlePostInfo {
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: #a2a2a2;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.singlePostAuthor {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.singlePostDesc {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    color: #6a6a6a;
+}
